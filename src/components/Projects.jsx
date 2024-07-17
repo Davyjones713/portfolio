@@ -40,14 +40,14 @@ const projects = [
   {
     id: 5,
     name: "Apod",
-    technologies: "MERN Stack",
+    technologies: "TS React MUI",
     image: Apod,
     link: { website: "https://apodtask.netlify.app/", name: "WebSite" },
   },
   {
     id: 6,
     name: "Digital Visit Card",
-    technologies: "MERN Stack",
+    technologies: "React BootStrap",
     image: DigitalCard,
     link: { website: "https://bootstrapreact.netlify.app/", name: "WebSite" },
   },
