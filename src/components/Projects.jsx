@@ -3,6 +3,7 @@ import Stamphub from "../assets/stamphub.png";
 import Archpoint from "../assets/archpoint.png";
 import Wildoasis from "../assets/wildoasis.png";
 import ReactPizza from "../assets/reactpizza.png";
+import DigitalCard from "../assets/digviscard.png";
 
 const projects = [
   {
@@ -42,6 +43,13 @@ const projects = [
     technologies: "MERN Stack",
     image: Apod,
     link: { website: "https://apodtask.netlify.app/", name: "WebSite" },
+  },
+  {
+    id: 6,
+    name: "Digital Visit Card",
+    technologies: "MERN Stack",
+    image: DigitalCard,
+    link: { website: "https://bootstrapreact.netlify.app/", name: "WebSite" },
   },
 ];
 
