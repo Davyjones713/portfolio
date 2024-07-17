@@ -2,6 +2,7 @@ import Apod from "../assets/apod.png";
 import Stamphub from "../assets/stamphub.png";
 import Archpoint from "../assets/archpoint.png";
 import Wildoasis from "../assets/wildoasis.png";
+import ReactPizza from "../assets/reactpizza.png";
 
 const projects = [
   {
@@ -30,10 +31,17 @@ const projects = [
   },
   {
     id: 4,
+    name: "React Pizza",
+    technologies: "MERN Stack",
+    image: ReactPizza,
+    link: { website: "https://reactpizzadi.netlify.app/", name: "WebSite" },
+  },
+  {
+    id: 5,
     name: "Apod",
     technologies: "MERN Stack",
     image: Apod,
-    link: { website: "https://github.com/Davyjones713/Apod", name: "GitHub" },
+    link: { website: "https://apodtask.netlify.app/", name: "WebSite" },
   },
 ];
 
