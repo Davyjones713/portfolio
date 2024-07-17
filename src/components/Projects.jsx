@@ -4,6 +4,8 @@ import Archpoint from "../assets/archpoint.png";
 import Wildoasis from "../assets/wildoasis.png";
 import ReactPizza from "../assets/reactpizza.png";
 import DigitalCard from "../assets/digviscard.png";
+import AudioPhile from "../assets/audiophile.png";
+import DevFinder from "../assets/devfinder.png";
 
 const projects = [
   {
@@ -23,7 +25,7 @@ const projects = [
   {
     id: 3,
     name: "Wild Oasis Website",
-    technologies: "MERN Stack",
+    technologies: "MERN Stack + Supabase",
     image: Wildoasis,
     link: {
       website: "https://github.com/Davyjones713/wild-oasis-website",
@@ -32,24 +34,39 @@ const projects = [
   },
   {
     id: 4,
+    name: "AudioPhile",
+    technologies: "MERN Stack",
+    image: AudioPhile,
+    link: { website: "https://audiophileweb.netlify.app/", name: "WebSite" },
+  },
+  {
+    id: 5,
     name: "React Pizza",
     technologies: "MERN Stack",
     image: ReactPizza,
     link: { website: "https://reactpizzadi.netlify.app/", name: "WebSite" },
   },
   {
-    id: 5,
+    id: 6,
     name: "Apod",
     technologies: "TS React MUI",
     image: Apod,
     link: { website: "https://apodtask.netlify.app/", name: "WebSite" },
   },
   {
-    id: 6,
+    id: 7,
     name: "Digital Visit Card",
     technologies: "React BootStrap",
     image: DigitalCard,
     link: { website: "https://bootstrapreact.netlify.app/", name: "WebSite" },
+  },
+
+  {
+    id: 8,
+    name: "Dev Finder",
+    technologies: "React + Styled Components",
+    image: DevFinder,
+    link: { website: "https://dev-finder-g.netlify.app/", name: "WebSite" },
   },
 ];
 
