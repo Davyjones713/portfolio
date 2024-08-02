@@ -6,6 +6,8 @@ import ReactPizza from "../assets/reactpizza.png";
 import DigitalCard from "../assets/digviscard.png";
 import AudioPhile from "../assets/audiophile.png";
 import DevFinder from "../assets/devfinder.png";
+import Netflix from "../assets/netflix.png";
+import ChatApp from "../assets/chatapp.png";
 
 const projects = [
   {
@@ -25,7 +27,7 @@ const projects = [
   {
     id: 3,
     name: "Wild Oasis Website",
-    technologies: "MERN Stack + Supabase",
+    technologies: "Next.JS + Supabase",
     image: Wildoasis,
     link: {
       website: "https://github.com/Davyjones713/wild-oasis-website",
@@ -39,22 +41,45 @@ const projects = [
     image: AudioPhile,
     link: { website: "https://audiophileweb.netlify.app/", name: "WebSite" },
   },
+
   {
     id: 5,
+    name: "Netflix Clone",
+    technologies: "MERN Stack",
+    image: Netflix,
+    link: {
+      website: "https://netflix-clone-hpmg.onrender.com/",
+      name: "WebSite",
+    },
+  },
+
+  {
+    id: 6,
+    name: "Chat App",
+    technologies: "MERN Stack",
+    image: ChatApp,
+    link: {
+      website: "https://mern-chatapp-1-nbl8.onrender.com/",
+      name: "WebSite",
+    },
+  },
+
+  {
+    id: 7,
     name: "React Pizza",
     technologies: "MERN Stack",
     image: ReactPizza,
     link: { website: "https://reactpizzadi.netlify.app/", name: "WebSite" },
   },
   {
-    id: 6,
+    id: 8,
     name: "Apod",
     technologies: "TS React MUI",
     image: Apod,
     link: { website: "https://apodtask.netlify.app/", name: "WebSite" },
   },
   {
-    id: 7,
+    id: 9,
     name: "Digital Visit Card",
     technologies: "React BootStrap",
     image: DigitalCard,
@@ -62,7 +87,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     name: "Dev Finder",
     technologies: "React + Styled Components",
     image: DevFinder,
